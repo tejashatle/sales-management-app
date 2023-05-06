@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FBFBFB;
+}
+
+.side-bar{
+    height: 100%;
+    width: 250px;
+    position: absolute;
+    left: 0;
+    background-color: white;
+    padding-left: 50px;
+}
+
+.side-bar .navbar-brand{
+    display: flex;
+    align-items: center;
+    color: #9747FF;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    margin-top: 25px;
+}
+
+.side-bar .navbar-brand svg{
+    color: #9747FF;
+    font-size: 40px;
+}
+
+
+.side-bar .navigation{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.side-bar .navigation .active{
+    height: 45px;
+    width: 220px;
+    background-color: #9747FF;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    box-shadow: 0px 4px 4px rgba(151, 71, 255, 0.42);
+}
+
+.side-bar .navigation .active svg{
+    color: white !important;
+}
+
+.side-bar .navigation svg{
+    font-size: 25px;
+    margin: auto 10px;
+}
+
+.side-bar .navigation a{
+    display: flex;
+    align-items: center;
+    height: 45px;
+    width: 220px;
+    font-size: 16px;
+    color: #9747FF;
+    text-decoration: none;  
+    line-height: 19.5px;
+    margin-top: 20px;
+}
+
+.top-bar{
+    position: absolute;
+    right: 0;
+    background-color: white;
+    width: 80%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    justify-content: space-between;
+}
+
+.top-bar .navbar-title{
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #323232;
+    margin-left: 35px;
+}
+
+.top-bar .search-box input[type="text"]{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    background: #F1F1F1;
+    border: none;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #686868;
+    letter-spacing: 0.05em;
+}
+
+/* .top-bar .search-box svg{
+    height: 1.5rem;
+    width: 1.5rem;
+    padding: 4px;
+    position: absolute;
+    box-sizing:border-box;
+    top:53%;
+    transform: translateY(-50%);
+} */
+
+.top-bar .notifications{
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background: #F24E1E12;
+}
+
+.top-bar .admin .name-role span{
+    display: flex;
+    font-size: 12px;
+}
+
+.top-bar .admin{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+iframe{
+    margin-left: 300px;
+    margin-top: 90px;
+    width: 78%;
+    height: 86%;
+    border: none;
+}
+
+.dashboard{
+    background-color: red;
+}

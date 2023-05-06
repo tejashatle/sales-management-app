@@ -2,12 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import './components.css';
 import reportWebVitals from './reportWebVitals';
+import SideBar from './components/SideBar';
+import TopBar from './components/TopBar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <SideBar />
+    {/* <TopBar title="Dashboard"/> */}
   </React.StrictMode>
 );
 
