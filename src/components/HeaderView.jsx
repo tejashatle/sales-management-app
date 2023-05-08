@@ -11,7 +11,7 @@ function HeaderView() {
     actPath = uppercasePath + path.slice(1);
 
   }
-  console.log(location);
+  console.log(actPath);
   
   return actPath;
 }

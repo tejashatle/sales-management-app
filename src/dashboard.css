@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FBFBFB;
+}
+
+.dashboard .sales-report{
+    display: flex;
+    flex-direction: row;
+}

@@ -76,7 +76,7 @@ body{
     position: absolute;
     right: 0;
     background-color: white;
-    width: 80%;
+    width: 82%;
     height: 90px;
     display: flex;
     align-items: center;
@@ -110,6 +110,7 @@ body{
     line-height: 16px;
     color: #686868;
     letter-spacing: 0.05em;
+    padding-left: 35px;
 }
 
 /* .top-bar .search-box svg{
@@ -143,14 +144,40 @@ body{
     justify-content: space-around;
 }
 
+.search-box svg{
+    position: absolute;
+    color: #9747FF;
+    
+}
+
+.icon {
+    padding: 8px;
+}
+
 iframe{
     margin-left: 300px;
     margin-top: 90px;
-    width: 78%;
-    height: 86%;
+    width: 1210px;
+    height: 610px;
     border: none;
 }
 
 .dashboard{
     background-color: red;
 }
+
+.admin .profile-pic{
+    height: 50px;
+}
+
+.admin .profile-pic img{
+    height: 100%;
+    width: 100%;
+}
+
+
+iframe .dashboard .sales-report{
+    display: flex;
+    flex-direction: row;
+}
+
