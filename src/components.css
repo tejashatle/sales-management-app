@@ -76,7 +76,7 @@ body{
     position: absolute;
     right: 0;
     background-color: white;
-    width: 82%;
+    width: 80%;
     height: 90px;
     display: flex;
     align-items: center;
@@ -157,7 +157,7 @@ body{
 iframe{
     margin-left: 300px;
     margin-top: 90px;
-    width: 1210px;
+    width: 1080px;
     height: 610px;
     border: none;
 }
